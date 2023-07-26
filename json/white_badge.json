@@ -1,0 +1,51 @@
+[
+  "JSON_Properties",
+  {
+    "questions":{
+      "firstQuestion":{
+        "whatIsJSON":"?",
+        "answer": "JSON stands for JavaScript Object Notation. JSON is a lightweight, text-based, language-independent, open standard, data interchange format. It is most frequently used for data transfer between app and server across the network and back. It uses a structure format that is easy to read and understand for humans."
+      },
+      "secondQuestion":{
+        "howIsItDifferentFromXML":"?",
+        "answer": "XML (Extensible markup language) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. JSON is more human-readable than XML. JSON is less secured, supports arrays and only UTF-8 enconding. XML is more secured, doesn't support arrays and various encoding. Also JSON format is slightly newer than XML."
+      },
+      "thirdQuestion":{
+        "howToAccessAndModifyJSONObjectData":"?",
+        "answer": "We can access the JSON object data the same way we would do it with normal JS object. If we want to access the data inside this answer we can do it with 'JSON_Properties.questions.thirdQuestion.answer'. To access an array we need to use the index: JSON_Properties.JSONDataFormats[1].type -> this would result 'array'"
+      }
+    },
+    "JSONDataFormats":[
+      {
+        "type": "object",
+        "values": "An object",
+        "example": {}
+      },
+      {
+        "type": "array",
+        "values": "An array",
+        "example": []
+      },
+      {
+        "type": "boolean",
+        "values": "true/false",
+        "example": true
+      },
+      {
+        "type": "number",
+        "values": "Numeric value, can be a float or integer",
+        "example": 2.02
+      },
+      {
+        "type": "string",
+        "values": "String value",
+        "example": "Example of string"
+      },
+      {
+        "type": "null",
+        "values": "A null",
+        "example": null
+      }
+    ]
+  }
+]
