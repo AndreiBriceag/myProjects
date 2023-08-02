@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>About</title>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="vignette"></div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" class="logo">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portofolio.html">Portofolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="about">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/profile.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1>About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum fugit omnis doloremque dolor quis molestiae dolore consectetur explicabo eligendi. Dicta repudiandae minus itaque ipsam ullam distinctio mollitia pariatur, quas accusamus!</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Python</span></li>
+                                <li><span>JavaScript</span></li>
+                                <li><span>UI/UX</span></li>
+                                <li><span>Frontend</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Python</span></li>
+                                <li><span>JavaScript</span></li>
+                                <li><span>UI/UX</span></li>
+                                <li><span>Frontend</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Python</span></li>
+                                <li><span>JavaScript</span></li>
+                                <li><span>UI/UX</span></li>
+                                <li><span>Frontend</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
