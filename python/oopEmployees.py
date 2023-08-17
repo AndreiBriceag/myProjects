@@ -1,4 +1,3 @@
-
 class Employee:
     
     def __init__(self, first, last, pay):
@@ -15,5 +14,6 @@ emp_2 = Employee('Test', 'Name', 45000)
 
 
 
-# print(emp_1.fullname())
-# print(Employee.fullname(emp_1))
+print(emp_1.fullname())
+print(Employee.fullname(emp_1))
+print(emp_1.pay)

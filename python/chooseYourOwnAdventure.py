@@ -1,4 +1,3 @@
-
 name = input("Type in your name: ")
 print("Welcome to this adventure,", name+ "!")
 

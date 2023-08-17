@@ -1,4 +1,3 @@
-
 print("Welcome to my Quiz!")
 
 gamePlay = input("Do you want to play? ").lower()
