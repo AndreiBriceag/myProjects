@@ -23,10 +23,12 @@ people = result["people"]
 for p in people:
     file.write(p['name'] + " - on board" + "\n")
 
+# Data for the ISS position
 def get_iss_data():
     iss_api = 'https://api.wheretheiss.at/v1/satellites/25544'
     request = requests.get(iss_api).json()
 
+    # Print the position and velocity (KM/H, MPH)
     print(f'''
         ---------------------------
         Real-Time ISS Location:
@@ -39,7 +41,7 @@ def get_iss_data():
         ---------------------------
         ''')
 
-
+# Print the ISS position
 def iss_current_data():
     for i in range(1): # for multiple prints
         get_iss_data()
