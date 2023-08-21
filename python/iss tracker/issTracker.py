@@ -45,7 +45,7 @@ def get_iss_data():
 def iss_current_data():
     for i in range(1): # for multiple prints
         get_iss_data()
-        time.sleep(3)
+        # time.sleep(5) # for multiple prints
 
 
 iss_current_data()
