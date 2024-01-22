@@ -1,0 +1,4 @@
+# matplotlib stylesheet for master data analysis with python
+figure.dpi: 147
+figure.figsize: 3.5, 2
+font.size: 7
